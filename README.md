@@ -1,22 +1,16 @@
-# Creating C++ State Machine(s) Using Boost::statechart Library (Mini eBook)
+# Создание машин состояний на C++ с помощью Boost::statechart Library (мини eBook)
 
 ![alt tag](https://github.com/9lean/State-Machine-Using-Boost-Statechart/blob/master/StateMachine.png)
 
-This mini eBook provides a step by step guide on using Boost::statechart (part of the boost C++ library @ www.boost.org) for creating state machines based software.
+Эта мини-электронная книга содержит пошаговое руководство по использованию boost::statechart.
 
-A large amount of code can potentially be written in the form of state machines. Sometimes even basic switch-case statements are a representation of miniature states. Many a time programmers create multiple states in the code without being explicitly aware of the fact that they are trying to emulate state machines.
+__Почему следует использовать существующую структуру конечного автомата вместо создания своей собственной?__
 
-__Why should one use exiting state machine framework instead of creating its own?__
+Создание правильного конечного автомата требует большого количества кода и должно работать так, как ожидается в большинстве непредсказуемых сценариев. Можно попробовать, но это займет уйму времени на разработку и тестирование, которое вместо этого можно использовать для кодирования функциональности.
 
-Creating a proper state machine require lots of code and should behave as expected in most of the unpredictable scenarios. One may try it out, but it will take a hell lot of development and testing time, which instead could be used for coding the functionality.
+boost::statechart - это универсальный конечный автомат, который удовлетворяет большинству основных требований, которые можно найти в конечных автоматах. Я искренне считаю, что нужно хотя бы изучить это, прежде чем написать собственный конечный автомат.
 
-Boost::statechart is a generic state machine which fulfills most of the basic requirements one can find in a state machines. It's my sincere opinion that one should at least explore this before deciding to write its own state machine.
-
-__This eBook is a work in progress as of now__
-
-__How to use this eBook ?__
-
-This eBook recommends to follow __"Chapter a Day"__ method. Each chapter is small enough to be digested in a day with sufficient practice.
+__Эта электронная книга находится в стадии разработки__
 
 
 ## eBook
